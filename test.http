@@ -1,0 +1,29 @@
+GET http://127.0.0.1:8000/api/post HTTP/1.1
+
+
+###
+
+
+POST http://127.0.0.1:8000/api/post HTTP/1.1
+
+Content-Type:  : application/json
+
+{
+    "title": "My second new title",
+    "content": "My secod new  post"
+  
+}
+
+###
+PUT http://127.0.0.1:8000/api/post/1 
+
+Content-Type:  :application/json
+{
+    "title":"my second post title (updated)",
+    "content": "my second post content (updated)"
+}
+
+###
+
+DELETE http://127.0.0.1:8000/api/post/2 
+
